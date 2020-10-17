@@ -13,14 +13,17 @@ export default class LandingPage extends Component {
             </button>
             <div className="collapse navbar-collapse justify-content-end mr-5" id="navbarNavAltMarkup">
               <ul className="navbar-nav">
-                <li className="nav-item"><a className="nav-link " href="#" style={{border: '1px solid',borderRadius:'16px'}}>Register</a></li>
+                <li className="nav-item" style={{border: '2px solid',borderRadius:'16px'}}><a className="nav-link " href="#" style={{paddingLeft:'16px',paddingRight:'16px'}}>Register</a></li>
                 <li className="nav-item"><a className="nav-link" href="#">Login</a></li>
               </ul>
             </div>
           </nav>
         </header>
         <main>
-
+          <div className="row">
+            <div className="col-6"></div>
+            <div className="col-6"></div>
+          </div>
         </main>
         <footer className="fixed-bottom">
           <ul>

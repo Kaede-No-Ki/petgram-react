@@ -7,10 +7,16 @@ landing-page{
     height: 100%;
 }
 
+footer > ul{
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
 footer > ul li{
     float: left;
-    list-style: none;
-    padding:10px
+    padding:10px;
 }
 
 footer > ul li a:hover{
@@ -18,5 +24,15 @@ footer > ul li a:hover{
 }
 footer > ul li a{
     color: #828282;
-    font-weight: bold
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:768px){
+    footer > ul li{
+        float: inherit;
+        padding:10px;
+    }
 }
